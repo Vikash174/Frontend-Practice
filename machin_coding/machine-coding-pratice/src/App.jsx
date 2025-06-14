@@ -2,12 +2,33 @@ import { useState } from 'react'
 
 
 import ChipsInput from './components/ChipsInput'
+import Accordian from './components/Accordian';
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  const items =[
+    {
+      title:"JavaScript Basics",
+      content : "Learn variables,functins, and loops in JavaScirpt"
+    },
+    {
+      title:"React.js Overview",
+      content : "Understand components, state, and props in React"
+    },
+    {
+      title:"Node.js",
+      content : "Basics of servier-side development with node.js"
+    },
+    {
+      title:"Full-Stack Development",
+      content : "Build full-stack applications with React and Node.js"
+    },
+   
+  ]
 
   return (
-   <ChipsInput/>
+  //  <ChipsInput/>
+  <Accordian items ={items}/>
   );
 }
 
