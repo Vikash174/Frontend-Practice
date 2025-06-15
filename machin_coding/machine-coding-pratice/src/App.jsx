@@ -5,6 +5,8 @@ import ChipsInput from './components/ChipsInput'
 import Accordian from './components/Accordian';
 import ContactForm from './components/ContactForm';
 import ToDo from './components/ToDo';
+import Pagination from './components/Pagination';
+
 
 function App() {
   
@@ -29,10 +31,7 @@ function App() {
   // ]
 
   return (
-  //  <ChipsInput/>
-  // <Accordian items ={items}/>
-  //  <ContactForm/>
-   <ToDo/>
+       <Pagination/>
   );
 }
 
