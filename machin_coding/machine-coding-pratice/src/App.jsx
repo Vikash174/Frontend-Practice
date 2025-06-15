@@ -4,6 +4,7 @@ import { useState } from 'react'
 import ChipsInput from './components/ChipsInput'
 import Accordian from './components/Accordian';
 import ContactForm from './components/ContactForm';
+import ToDo from './components/ToDo';
 
 function App() {
   
@@ -30,7 +31,8 @@ function App() {
   return (
   //  <ChipsInput/>
   // <Accordian items ={items}/>
-   <ContactForm/>
+  //  <ContactForm/>
+   <ToDo/>
   );
 }
 
